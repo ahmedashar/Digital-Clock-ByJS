@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color:rgb(37, 24, 24);
+}
+.container{
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 20px double #44D62C;
+
+}
+#Time{
+    margin-top: -10px ;
+    color: #44D62C;
+    font-family: 'Black Ops One', cursive;
+    font-size: 60px;
+}
+.h1{
+    font-size: 80px;
+}
+
+button{
+    font-size: 22px;
+    width: 100px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 20px;
+}
+button:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+button:disabled{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
